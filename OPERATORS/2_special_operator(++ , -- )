@@ -1,0 +1,158 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  
+ //cout << "assignment operator's " << endl;
+ 
+  
+ //int num1 {10}; //initialisation 
+ //int num2 {20}; //initialisation
+ 
+ //cout << "value of num1 is " << num1 << endl;
+ //cout << "value of num2 is " << num2 << endl;
+  
+  
+ //cout << "====================================================" << endl;   
+ 
+ 
+ //int num1 {10}; //initialisation 
+ //int num2 {20}; //initialisation
+ 
+ //num1 = 100 ; //assignment operator
+ //num2 = 200 ; //assingment operator
+ 
+ //cout << "value of num1 is " << num1 << endl;
+ //cout << "value of num2 is " << num2 << endl;
+ 
+  //cout << "====================================================" << endl; 
+  
+  //int num1 {10};
+  //int num2 {20};
+  
+  //num1 = num2 ;
+  
+  //cout << "value of num1 is " << num1 << endl;
+  //cout << "value of num2 is " << num2 << endl;
+  
+  //cout << "====================================================" << endl; 
+  
+  
+  //cout << "arithmetics operator's  "  << endl;
+  
+  //int num1 {100};
+  //int num2 {200};
+  
+  // cout << num1 << "+" << num2 << "=" << num1 + num2 << endl;
+  
+  //cout << "==========================================================" << endl;
+  
+  //int num1;
+  //int num2;
+  //int result {0};
+  
+  
+  //cout << "enter num1 and num2 " << endl;
+  //cin ;
+  //cin >> num2 ;>> num1 
+  //result = num1 + num2 ;
+  //cout << num1 << "+" << num2 << "=" << result << endl;
+  
+  //cout << "============================================================" << endl;
+  
+  //cout << "enter num1 and num2 for substraction" << endl;
+  
+  //int num1;
+  //int num2;
+  //int result {0};
+  
+  //cin >> num1;
+  //cin >> num2;
+  
+  //result = num1 - num2 ;
+  
+  //cout << num1 << " - " << num2 << " = " << result << endl;
+  
+  //cout << "==================================================================" << endl;
+  
+  //int num1 ;
+  //int num2 ;
+  //int result {0};
+  
+  //cout << "ENTER NUMBER 1 AND NUMBER 2 FOR MULTIPLICATION" << endl;
+  
+  //cin >> num1 ;
+  //cin >> num2 ;
+  
+  //result = num1 * num2 ;
+  
+  //cout << num1 << " * " << num2 << "=" << result << endl;
+  
+  //cout << "========================================================" << endl;
+  
+  //cout << "enter num1 / num2 for division" << endl;
+  
+  //int num1;
+  //int num2;
+  //int result ;
+  
+  //cin >> num1 ;
+  //cin >> num2 ;
+  
+  //result = num1 / num2 ;
+  
+  //cout << num1 << " / " << num2 << "  =  " << result << endl;
+  
+  // cout << "====================================================" << endl;
+  
+  //cout << "enter the num 1 and num 2 to get their reminder " << endl;
+  
+  //int num1 ;
+  //int num2 ;
+  //int result ;
+  
+  //cin >> num1 ;
+  //cin >> num2 ;
+  
+  //result = num1 % num2 ;
+  
+  //cout << num1 << " % " << num2 << " = " << result << endl;
+  
+  //cout << "==========================================================" << endl;
+  
+  
+  
+  
+  
+ 
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  return 0;
+ 
+}

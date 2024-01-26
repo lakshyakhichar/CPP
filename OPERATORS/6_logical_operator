@@ -1,0 +1,70 @@
+#include <iostream>
+using namespace std;
+int main()
+
+ {
+    //int num1{};
+    //const int lower{5};
+    //const int upper{15};
+    
+    cout << boolalpha ;
+    
+    //determine the entered number is b/w two other integer 
+    
+    //cout << "enter the num b/w " << lower << " & " << upper << " : " ;
+    //cin >> num1 ;
+    
+    //bool within_bound{false} ;
+    
+    //within_bound =( num1 >= lower && num1 <= upper );
+    
+    //cout << num1 << " is between " << lower << " and " << upper << " : " << within_bound << endl;
+    
+    cout << "===================================" << endl;
+    
+    //cout << "enter the number bounds are " << lower << " and " << upper << " : " ;
+    //cin >> num1 ;
+    
+    //bool outside_bound {false};
+    //outside_bound =( num1 <= lower || num1 >= upper);
+    //cout << num1 << " is outside " << lower << "and" << upper << " : "  << outside_bound << endl;
+    
+    cout << "=====================================" << endl;
+    
+    //cout << "enter the number - the bounds are " << lower << " and " << upper << " : " ;
+    //cin >> num1 ;
+    
+    //bool bounds_are{false};
+    //bounds_are = (num1 == lower || num1 == upper ) ;
+    
+    //cout << num1 << " is on one of the bound " << lower << " and " << upper << " : " << bounds_are << endl;
+    
+    cout << "=========================================" << endl;
+    
+    //determine is you need to wear a coat based on temperature and wind speed 
+    
+    bool wear_coat {false};
+    double temperature {};
+    int wind_speed{} ;
+    
+    const int wind_speed_for_coat{25}; //wind over this value required a coat 
+    const double temperature_for_coat{45} ; //temperature blow this required coat 
+
+    //required is either of wind is too high or temperature is too low 
+
+    cout << "enter the current temperatur : " ;
+    cin >> temperature ;
+    
+    cout << "enter the current wind speed : " ;
+    cin >> wind_speed ;
+    
+    wear_coat = (temperature <= temperature_for_coat || wind_speed >= wind_speed_for_coat );
+    
+    cout << "should you have too wear the coat : " << wear_coat ;
+    
+    return 0;
+
+ }
+
+ 
+ 

@@ -1,0 +1,69 @@
+#include <iostream>
+#include <vector>
+ 
+using namespace std;
+
+int main()
+{
+  //vector <char> vowel;
+  //vector <char> vowel(5);
+  //vector <char> vowel {'A','E','I','O','u'};
+  
+  //cout << vowel[0] << endl;
+  //cout << vowel[1]<< endl; //these in outputed in array form 
+                            
+  //cout <<"=============================================" << endl;
+
+  //vector <int> test_score ;
+  //vector <int> test_score(3) ; //here 3 int are initialised all have there value = 0
+  //vector <int> test_score(3,5); //HERE 3 INT ARE ALSO INITIALISDE BUT ALL 3 ARE EQUAL TO 5
+  //vector <int> test_score{100,101,102};//here value of int are 100,101,102 
+  
+  //cout << test_score[0] << endl;
+  //cout << test_score[1] << endl;
+  //cout << test_score[2] << endl;
+  
+  //cout << "=================================================" << endl;
+  
+  //vector <int> test_score(3) ;
+  
+  //cout << "enter the test score" << endl;
+  
+  //cin >> test_score.at(0);
+  //cin >> test_score.at(1);
+  //cin >> test_score.at(2);
+  
+  //cout << "the test score are : " << endl;
+  //cout << test_score.at(0) << endl;
+  //cout << test_score.at(1) << endl;
+  //cout << test_score.at(2) << endl;
+  
+  //int score_to_add{0};
+  
+  //cout << "the data to test score" << endl;
+  //cin >> score_to_add ;
+  
+  //test_score.push_back(score_to_add); 
+   
+  //cout << "add another test score" << endl;
+  
+  //cin >> score_to_add ;
+  
+  //test_score.push_back(score_to_add);
+  
+  //cout << "the updated test score are : " << endl;
+  //cout << test_score.at(0) << endl;
+  //cout << test_score.at(1) << endl;
+  //cout << test_score.at(2) << endl;
+  //cout << test_score.at(3) << endl;
+  //cout << test_score.at(4) << endl;
+
+  //cout << "===============================================" << endl;
+  
+  //vector <int> test_score(3) ;
+  //cout << "THE SIZE OF THE TEST SCORE IS : " << test_score.size() << endl;
+  
+  //cout << "===============================================" << endl;
+  
+  return 0;
+}

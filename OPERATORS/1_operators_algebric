@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std ;
+
+int main()
+
+{
+    cout << "conversion of euros into usa doller " << endl ;
+    
+    const double usd_per_euro {1.19} ;
+    int euros; 
+    double result ;
+    
+    
+    
+    cout << "enter the amount od euros which you want too convert in usd : " ;
+    
+    cin >> euros ;
+    
+    result = euros * usd_per_euro ;
+    
+    cout << "euros to usd = " << result << endl;
+     
+     
+    return 0 ;
+}

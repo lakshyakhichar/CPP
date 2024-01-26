@@ -1,0 +1,111 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <cctype>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+{
+  string s0;
+  string s1{"Apple"};
+  string s2{"Banana"};
+  string s3{"Kiwi"};
+  string s4{"apple"};
+  string s5{s1};
+  string s6{s1,0,3};
+  string s7(10,'X');
+   
+  // cout << s0 << endl;                   
+  // cout << s0.length() << endl; 
+  
+  // initialIZation
+  
+    //cout << "s1 = " << s1 << endl;
+    //cout << "s2 = " << s2 << endl; 
+    //cout << "s3 = " << s3 << endl;
+    //cout << "s4 = " << s4 << endl;
+    //cout << "s5 = " << s5 << endl;
+    //cout << "s6 = " << s6 << endl;
+    //cout << "s7 = " << s7 << endl;
+     
+     
+     //cout << "------------------------------" << endl;
+     //comparision
+     
+     //cout << boolalpha ;
+     
+    //cout << s1 << " == " << s5 << " : " << (s1 == s5) << endl;  // true
+    //cout << s1 << " == " << s2 << " : " << (s1 == s2) << endl;  // false
+    //cout << s1 << " != " << s2 << " : " << (s1 != s2) << endl;  // true
+    //cout << s1 << " < " << s2 << " : " << (s1 < s2) << endl;    // false
+    //cout << s2 << " > " << s1<< " : " << (s2 > s1) << endl;     // true 
+    //cout << s4 << " < " << s5 << " : " << (s4 < s5) << endl;    // false
+    //cout << s1 << " == " << "Apple" << " : " << (s1 == "Apple") << endl; // true 
+     
+     //cout << " /n ASSIGNING " << "\n --------------------" << endl;
+     
+     //s1 = "WATERMELON" ;
+     //cout << "s1 is now : " <<  s1 << endl;
+     
+     //s2 = "frank" ;
+     //cout << "s2 is now : " << s2 << endl;
+     
+     //s3 = s1 ;
+     //cout << "s3 is now : " << s3 << endl;
+     
+    //s2[0] = 'c' ;
+    //cout << "s2 change first letter to 'c' : " << s2 << endl;
+    
+    //s2.at(0) = 'p' ;
+    //cout << "s2 change first to 'p' : " << s2 << endl;
+    
+    //concatenate
+    
+    //s3 = s1 + " and " + s2 + " juice " ;
+    //cout << s3 ; 
+    
+    //s1 = "apple" ;
+    //for(size_t i {0} ; i < s1.length() ; ++i )
+       //cout << s1.at(i) << endl;
+    //cout << endl; 
+    
+    //for(char c : s1)
+        //cout << c << endl;
+    //cout << endl;
+    
+    //substring 
+    
+    //s1 = "this is a test " ;
+    
+    //cout << s1.substr(0,4) << endl; 
+    //cout << s1.substr(5,2) << endl;
+    //cout << s1.at(8) << endl;
+    //cout << s1.substr(10) << endl;
+    
+    // erase
+    
+    //cout << s1.erase(0,5) << endl;
+    
+    //string full_name{} ;
+     
+    //cout << "enter your full name : " ; getline(cin,full_name) ;
+    //cout << "your name is : " << full_name ;
+    
+    //find 
+    
+    s1 = "the secret word is boo" ;
+    string word{} ;
+    cout << "enter the word to find : " ;
+    cin >> word ;
+    
+    size_t position = s1.find(word) ;
+    if (position != string::npos)
+      cout << "found " << word << " at position " << position << endl;
+    else 
+      cout << "not found " << endl;
+
+   cout << endl; 
+  return 0;
+}

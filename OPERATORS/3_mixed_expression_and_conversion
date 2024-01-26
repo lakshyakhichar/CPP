@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+int main()
+/*{
+ 
+int total_amount {100};
+int total_number {8} ;
+double average {0.0} ;
+
+average = total_amount / total_number ;
+cout << average << endl; //display = 12 
+
+average = static_cast<double> (total_amount) / total_number ;
+cout << average << endl; //display = 12.5 
+}*/
+
+/*{
+ int num1;
+ int num2;
+ int num3;
+ 
+ cout << "ENTER ANY THREE NUMBER = " << endl;
+ cin >> num1 >> num2 >> num3 ;
+ 
+ int sum;
+ sum = num1 + num2 + num3 ;
+ 
+ double average {0};
+ average = static_cast<double> (sum) / 3 ;
+ 
+ cout << "integer are = " << num1 << " \n " << num2 << " \n " << num3 << endl;
+ cout << "sum = " << sum << endl;
+ cout << "average = " << average << endl;
+ 
+ return 0;
+}*/
+

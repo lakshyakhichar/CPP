@@ -1,0 +1,267 @@
+// if statement
+ 
+/* #include <iostream>
+  using namespace std;
+  int main()
+{
+    int num{};
+    cout << "enter any num = " ; cin >> num ;
+    
+    if(num>=10)
+    {
+        cout << "num is in bound" << endl;
+    }
+    else
+    {
+        cout << "num is not in bound" << endl;
+    }    
+    
+     if(num<=100)
+    {
+        cout << "num is in bound" << endl;
+    }
+    else
+    {
+        cout << "num is not in bound" << endl;
+    }
+    
+    if(num>=10 && num<=100)
+    {
+        cout << "num is in bound " << endl;
+    }
+    else 
+    {
+        cout << "num is not in bound " << endl;
+    } 
+     
+    if(num==10 || num==100)
+    {
+        cout << "num is in bound " << endl;
+    }
+    else
+    {
+        cout << "num is not in bound " << endl;
+    }
+   return 0;
+}  
+*/
+    
+    
+// if-else statement 
+
+ /* 
+ #include <iostream>
+ using namespace std;
+ int main()
+ {
+     int score{};
+     cout << "ENTER YOUR SCORE TOO KNOW YOUR GRADE : " ; cin >> score ;
+    
+    if(score > 90)
+      cout << "A" ;
+    else if(score > 80)
+      cout << "B" ;
+    else if(score > 70)
+      cout << "C" ;
+    else if(score > 60)
+      cout << "D" ;
+    else 
+        cout << "F" << endl;
+        
+    cout << "DONE!" << endl;
+    
+     return 0;
+} */
+
+/* 
+#include <iostream>
+using namespace std;
+int main()
+{   
+    int num{};
+    const int target{10};
+    
+    cout << "ENTER A NUM AND I'LL COMPARE IT TOO TARGET : " ;  cin >> num ;
+    
+    if(num >= target)
+        cout << num << " is greater or equal too the target " << target << endl;
+    else 
+        cout << num << " is less than target " << target << endl; 
+    
+    
+    
+    return 0;
+}
+*/
+
+//nested if else statement 
+
+/* 
+ #include<iostream>
+ using namespace std;
+ int main() 
+ {
+    int score_frank{};
+    int score_bill{};
+    cout << "enter franks score : " ; cin >> score_frank ;
+    cout << "enter bill score : " ; cin >> score_bill ;
+     
+     if(score_frank != score_bill)
+      {
+       if(score_frank > score_bill)
+           cout << "franks win" << endl;
+       else
+           cout << "bill win" << endl;
+      }   
+     else 
+         cout << "looks like a tie!" << endl;
+ }
+*/
+
+ /*
+ #include<iostream>
+ using namespace std;
+ int main()
+ {
+  int score{} ;
+  
+  cout << "ENTER YOUR SCORE HERE : " ; cin >> score ;
+  
+  if(score > 45 )
+  {
+   if(score > 90)
+     cout << "A" ;
+  else if(score > 80)
+     cout << "B" ;
+  else if(score > 70)
+      cout << "C" ;
+  else if (score >= 45)
+      cout << "D" ;
+  }
+  else 
+      cout << "you have to repeat your class" << endl;
+      
+ }
+*/   
+   
+// SWITCH STATEMENT 
+
+/*
+#include<iostream>
+using namespace std;
+int main()
+{
+  char letter_grade{};
+  cout << "ENTER THE LETTER GRADE YOU EXPECT ON THE EXAM:" ;
+  cin >> letter_grade ;
+  
+  switch(letter_grade)
+  {
+   case'a':
+   case'A': cout << "you need 90 or above, study hard" << endl ; break;
+   case'b':
+   case'B': cout << "you need 80 or above" << endl ; break;
+   case'c':
+   case'C': cout << "you need 70 or above" << endl ; break;
+   case'f':
+   case'F': 
+       {
+          char confirm{};
+          cout << "Are you sure(Y/N)";
+          cin >> confirm;
+          if(confirm == 'y' || confirm == 'Y')
+            cout << "OK" << endl;  
+          else if(confirm == 'n' || confirm == 'N')
+            cout <<  "go study" << endl;
+          else 
+            cout << "illigal choice" << endl;
+           break; 
+       }
+   
+    default : cout << "sorry, not a valid grade" << endl; break;
+  }
+  
+  cout << endl;
+  return 0;
+}
+ */
+ 
+ // SWITCH WITH ENUMIRATION
+/* 
+#include<iostream>
+using namespace std;
+int main()
+{
+    enum Direction 
+    {
+     left,right,up,down   
+    };
+    
+    Direction heading{right};
+    switch(heading)
+    {
+        case left:
+          cout << "going left" << endl;
+          break;
+          
+        case right:
+          cout << "going right" << endl;
+          break;
+        
+        case up:
+          cout << "going up" << endl;
+          break;
+          
+        case down:
+          cout << "going down" << endl;
+          break;
+          
+        default : cout << "unknown" << endl;
+    }
+    cout << endl;
+    return 0;
+}
+*/
+
+// CONDITIONAL OPERATOR
+
+//#include <iostream>
+//using namespace std;
+//int main()
+/*
+{    
+    int num{};
+cout << "enter an integer : " ; cin >> num ;
+   
+if(num%2==0)
+   cout << "num is even number" << endl;
+else 
+   cout << "num is odd number " << endl;
+   
+cout << "===============================" << endl;
+
+    cout << num << " is " << ( (num%2==0) ? "EVEN" : "ODD" ) << endl;
+    
+    cout << endl;
+    
+return 0;
+}
+
+
+{
+    int num1{} , num2{} ;
+    
+    cout << "enter num1 and num2 : " ; cin >> num1 >> num2 ;
+    
+    if(num1!=num2)
+     {
+       cout <<  ( (num1 > num2 ) ? "num1 is greatest" : "num2 is greater" )<< endl; 
+     }
+    else
+     {
+      cout << "THE NUMBER ARE SAME " << endl;
+     }
+    
+    return 0;
+}
+*/

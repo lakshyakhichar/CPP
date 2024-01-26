@@ -1,0 +1,44 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+/*{
+    
+ bool equal_result {false};
+ bool not_equal_result {false};
+ 
+ int num1{} , num2{} ;
+ cout << boolalpha ; //will display true/false instead of 1/0 for boolean 
+ 
+ cout << "ENTER ANY TWO NUMBER SEPERATED BY SPACE'S = " << endl;
+ cin >> num1 >> num2 ;
+ 
+ equal_result = (num1 == num2);
+ not_equal_result = (num1 != num2);
+ 
+ cout << "compresion result (equal) = " << equal_result << endl;
+ cout << "compresion result (not equal) = " << not_equal_result << endl;
+ 
+ return 0;
+}*/
+
+/*{
+ bool equal_result{false};
+ bool not_equal_result {false};
+ char char1{} , char2{} ;
+ 
+ cout << "enter two character with space's = " ;
+ cin >> char1 >> char2 ;
+ 
+ equal_result = (char1 == char2);
+ not_equal_result = (char1 != char2 );
+ 
+ cout << boolalpha ;
+ 
+ cout << "compresion result(equal) = " << equal_result << endl;
+ cout << "compresion result(not equal) = " << not_equal_result << endl;
+ 
+ return 0;
+}*/
+
